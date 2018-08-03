@@ -8,7 +8,7 @@ secret="your IFTTT secret key"
 screenname="your Twitter screen name"
 
 # Collect stats from Twitter
-read stats < <(t whois $screenname --csv | tail -1)
+read stats < <(t whois $screenname --csv | head -2 | tail -1)
 
 # Split string into an array
 IFS=',' read -r -a array <<< "$stats"
