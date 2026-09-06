@@ -1,4 +1,4 @@
-# [![Application icon](https://github.com/aloth/tstats/raw/master/blog/tstats.png)][blog]
+# [![Application icon](https://raw.githubusercontent.com/aloth/tstats/master/blog/tstats.png)][blog]
 [blog]: http://alexloth.com/2015/07/26/log-twitter-follower-stats-ifttt-google-spreadsheet/
 
 # tstats
